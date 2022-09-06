@@ -26,3 +26,12 @@ if creditscore > 700:
     print(f'Congratulations! You qualify for a 10% down payment of £{house_Price * 0.1}')
 else:
     print(f'You qualify for a 20% down payment of £{house_Price * 0.2}')
+
+weight = int(input("Weight: "))
+unit = input("(L)bs or (K)g: ")
+if unit.upper() == 'L':
+    converted = weight * 0.45
+    print(f'You are {converted} kilos')
+else:
+    converted = weight / 0.45
+    print(f'You are {converted} pounds')
