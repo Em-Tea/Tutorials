@@ -1,6 +1,6 @@
 import random
 
-ran = random.randint(1, 25)
+ran_num = random.randint(1, 25)
 guess_limit = 5
 while guess_limit >= 1:
     ans = int(input(f'You have {guess_limit} guesses! Enter your guess: '))
