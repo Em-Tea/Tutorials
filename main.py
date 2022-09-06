@@ -12,9 +12,17 @@ print(msg)
 
 while True:
     exampleInput = input("Please enter your username: ")
-    if len(exampleInput) > 25:
-        print("Character limit is 25")
+    if len(exampleInput) > 25 or len(exampleInput) < 4:
+        print("Character limit is 4 to 25")
     else:
         print(f'{exampleInput}, Thank you for signing up to our service')
         break
-gcfhjgfhcj
+
+house_Price = 1000000
+print("Please enter your credit score below")
+creditscore = input()
+creditscore = int(creditscore)
+if creditscore > 700:
+    print(f'Congratulations! You qualify for a 10% down payment of £{house_Price * 0.1}')
+else:
+    print(f'You qualify for a 20% down payment of £{house_Price * 0.2}')
