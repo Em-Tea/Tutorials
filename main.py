@@ -35,3 +35,9 @@ if unit.upper() == 'L':
 else:
     converted = weight / 0.45
     print(f'You are {converted} pounds')
+
+i = 1
+while i <= 5:
+    print('I' * i)
+    i += 1
+print("Done")
