@@ -7,7 +7,6 @@ if n < 5 and n > 3:
 elif n >= 5 and n < 7:
     print("b")
     bool = False
-
 print(bool)
 
 
@@ -21,7 +20,6 @@ while True:
             print("Please enter a valid age")
     except ValueError:
         print("Please enter a number")
-
 
 
 try:
