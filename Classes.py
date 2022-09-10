@@ -1,3 +1,6 @@
+import random
+
+
 class Point:  # Pascal naming convention
     def __init__(self, x, y):  # Self references itself as an object
         self.x = x
@@ -18,7 +21,7 @@ point1.position()
 
 
 class Person:
-    def __init__(self, name): # Constructor method
+    def __init__(self, name):  # Constructor method
         self.name = name
 
     def talk(self):
@@ -27,3 +30,11 @@ class Person:
 
 person1 = Person("John Smith")
 person1.talk()
+
+
+class Dice:
+    def roll(self):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return first, second
+
