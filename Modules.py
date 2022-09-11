@@ -1,4 +1,8 @@
 # import converters - this imports the entire module rather than the methods we need
+"""
+Module = a file containing python code. May contain functions, classes, etc.
+         used with modular programming, which is to separate a program into parts.
+"""
 import utils
 from utils import lbs_to_kg # Here, we import only what we need from another module.
 from utils import find_max
